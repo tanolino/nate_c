@@ -46,6 +46,8 @@ typedef struct MemoryOf3rdTag {
 
 extern void nate_MemoryOf3rd_Free(MemoryOf3rd* memory);
 
+//------------------- Impl
+
 #ifdef NATE_DYNMEMORY_IMPLEMENTATION
 
 int nate_ByteBuffer_Alloc(ByteBuffer *buffer, size_t size)
